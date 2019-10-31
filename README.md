@@ -177,6 +177,7 @@ rename {filename} {new filename} - rename a file or folder
 start {filename} - open file in default program
 start . - open current directory
 cls - clear the terminal screen 
+Ctrl+c - To abort operation
 ```
 
 
@@ -203,7 +204,7 @@ git commit –m”message”
 git push
 git pull
 git branch
-git branch “name”
+git branch “name” // to create branch
 git checkout “name”
 git merge “name”
 ```
